@@ -1,0 +1,74 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ body { 
+ 		background-color: #FFFFFF;
+ 		padding-top: 30px; 
+ 		font-family: 'Quicksand';
+ 		color:#344152;
+ 		}
+ header { 
+ 		text-align: center;
+ 		color: #6C7B8B;
+ 		margin-bottom: 30px;
+ 		}
+ header h1 {
+ 		font-size: 50px;
+ 		font-weight: 300;
+ 		color:#344152;
+ 		}
+.category-list p {
+	font-size: 9px;
+	text-align: center;
+}
+img.category-image {
+	width: 80px;
+	height: 80px;
+}
+
+.product-type-title {
+	font-size: 20px;
+	}
+.product-list {
+	margin-top: 10px;
+}
+.product-list p {
+	text-align: center;
+}
+.product-list .paper-plate {
+	font-weight: bold;
+	text-transform: uppercase;
+	opacity: 0.5;
+	font-size: 10px;
+}
+.ranking-results {
+	margin-bottom: 20px;
+}
+.ranking-results h4 {
+	text-align: center;
+	margin-bottom: 25px;
+	margin-top: 35px;
+	opacity: 0.6;
+}
+.col-xs-3 {
+	text-align: center;
+	font-size: 12px;
+	}
+.product-image {
+	margin-bottom: 10px;
+	text-align: center;
+	width: 150px;
+	height: 150px;}
